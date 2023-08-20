@@ -58,7 +58,6 @@ movies['keywords'] = movies['keywords'].apply(convert)
 movies.head()
 
 # %%
-import ast
 ast.literal_eval('[{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 14, "name": "Fantasy"}, {"id": 878, "name": "Science Fiction"}]')
 
 # %%
